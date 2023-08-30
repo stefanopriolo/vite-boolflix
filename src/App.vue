@@ -1,18 +1,18 @@
-
-
 <script>
-import axios from 'axios';
-import TheHeader from './components/TheHeader.vue'
+import TheNavbar from "./components/TheNavbar.vue"
+import TheMain from "./components/TheMain.vue"
+
 export default {
   components: {
-    TheHeader,
-    axios
+    TheNavbar,
+    TheMain,
   },
 }
 </script>
 
 <template>
+  <TheNavbar></TheNavbar>
+  <TheMain></TheMain>
 </template>
 
-<style>
-</style>
+<style lang="scss"></style>
