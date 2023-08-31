@@ -22,6 +22,7 @@ export default {
 <template>
   <nav class="navbar">
     <div class="container">
+      <h1>BoolFlix</h1>
       <a class="navbar-brand" href="../../index.html"><img src="../assets/img/Boolflix-logo.png" height="50" alt=""></a>
       <div class="d-flex" role="search">
         <input type="search" class="form-control search-area rounded-0" rows="1" placeholder="Cerca" aria-label="Search"
@@ -60,5 +61,9 @@ nav {
   height: 2rem;
   overflow: hidden;
   line-height: 2rem;
+}
+
+h1 {
+  color:#DA1927;
 }
 </style>
